@@ -10,7 +10,8 @@
     </ContentPage.BindingContext>
 
     <StackLayout Padding="20,40,20,20">
-        <Entry Text="{Binding City, Mode=TwoWay}"/>
+        <Entry Text="{Binding City, Mode=TwoWay}"
+               Placeholder="Search City"/>
         <ActivityIndicator IsRunning="{Binding IsBusy,Mode=TwoWay}"/>
         <!--<Button Text="Get Weather"
                 Command="{Binding GetWeatherCommand}"/>-->
