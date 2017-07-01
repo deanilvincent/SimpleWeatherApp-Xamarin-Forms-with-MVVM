@@ -5,3 +5,5 @@
 - Microsoft.Bcl.Build   - v. 1.0.21
 - Microsoft.Bcl         - v. 1.1.10
 - Newtonsoft.Json       - v. 8.0.2
+
+Weather API Used: https://openweathermap.org/
